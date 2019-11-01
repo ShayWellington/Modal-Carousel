@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.myDogs{
+  width:200px;
+  /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+}
+.myDogs:hover{
+  border: 2px solid yellow;
+}
+
+.myModal{
+
+  height: 100vh;
+  /* width : 70%; */
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  justify-content: center;
+
+}
+.closeBar{
+  font-size: 25px;
+  color : white;
+  text-align: center;
+}
+.jumbotron{
+  height: 100px;
+  padding-top: 25px;
+  ext-align: center;
+}
+.jumbotrons{
+  font-size: 25px;
+  height: 300px;
+  padding-top:20px;
+  /* padding-left: 40%;*/
+  margin:auto;
+  text-align: center;
+
+}
+.modalDog{
+  width: auto;
+  height:300px;
+  margin: auto;
+  display: block;
+  margin-top: 100px;
+
+}
+.myCarousel{
+
+  height: 500px;
+  display:block;
+  margin:auto;
+  margin-top:0px;
+  padding-top:0px;
+  overflow:hidden;
+  object-fit:cover;
+
+}
